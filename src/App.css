@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .App-logo {
@@ -35,4 +37,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #01afff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23e2ce96' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23844eff' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23de82ae' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%234498ff' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23e54894' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%238080ff' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23dc00c9' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%233bd3f0' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23b80097' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2358d3bc' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%232f0db3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2366d794' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+button.todo-input {
+  background-color: #fff;
+  border-style: none;
+  height: 22px;
+  color: rgb(48, 121, 255);
+}
+
+button.todo-input:hover {
+  background-color: rgba(0, 85, 243, 0.358);
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: #bf99ee;
+}
+button.todo-input:active {
+  background-color: #4bfcffd2;
+  color: rgb(255, 255, 255);
+}
+
+select.filter-todo {
+  border-style: none;
+}
+
+input.todo-input {
+  background-color: #ffffff;
+  border-style: none;
+  height: 20px;
+  padding-left: 5px;
+  color: #9f1aec;
+}
+
+input.todo-input:focus {
+  background-color: #ffffff;
+  outline: none;
 }
