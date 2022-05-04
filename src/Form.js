@@ -18,6 +18,7 @@ const form = ({ setInputText, todos, setTodos, inputText }) => {
       ...todos,
       { text: inputText, completed: false, id: Math.random() * 1000 },
     ]);
+    setInputText();
   };
 
   return (
